@@ -1,5 +1,7 @@
+<h1>FILMS</h1>
+
 <% for film in @films %>
 <ul>
-  <li><h1><a href="/film/<%= film.id %>"><%= film.title %></a></h1></li>
+  <li><h1><a href="/film/<%= film.id %>"><%=film.title%></a></h1></li>
 </ul>
   <% end %>
